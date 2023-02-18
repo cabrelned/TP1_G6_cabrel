@@ -36,7 +36,9 @@ public class Main {
         int longeur =sc.nextInt();
         System.out.println("entrer la hauteur");
         int hauteur  =sc.nextInt();
-        int volume = longeur * hauteur;
+        System.out.println("Entrer la largeur ");
+        int largeur = sc.nextInt();
+        int volume = longeur * hauteur*largeur ;
         System.out.println("Le volume du pavé droit est: " + volume);
     }
 }
